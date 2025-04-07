@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>StyleTrack Pro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="chat-container">
+    <div class="ai-chat-box fashion-theme">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8HKapPXiWDBSE6IjO_SoSyBDs03Uzng6A6w&s" alt="StyleTrack AI" id="aiImage" class="ai-avatar" />
+        <div class="ai-chat-area">
+        Hello fashionista! ✨<br>
+        Looking for the latest events, trends, or runway schedules?
+      </div>
+    </div>
+  </div>
+
+  <div class="prompt-area">
+    <input
+      type="text"
+      id="prompt"
+      placeholder="Ask about fashion events, designers, or show timings..."
+    />
+    <button id="image" title="Upload Outfit or Invitation">
+      <img src="img.svg" alt="Upload Image" />
+      <input type="file" accept="image/*" hidden />
+    </button>
+    <button id="submit" title="Send">
+      <img src="submit.svg" alt="Send Prompt" />
+    </button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
